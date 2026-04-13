@@ -10,7 +10,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 
 load_dotenv()
 
-def ingest_faq(pdf_path: str = "data/FAQ-JIS.pdf"):
+def ingest_faq(pdf_path: str = "data/FAQ-JIS (1).pdf"):
 
     print("📄 Loading FAQ PDF with Docling...")
     converter = DocumentConverter()

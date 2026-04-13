@@ -86,7 +86,7 @@ def process_image(image_path: str) -> tuple[str, str]:
         print("🤖 Sending to Gemini Vision...")
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-2.0-flash",
             contents=[
                 types.Content(
                     role="user",
@@ -134,7 +134,7 @@ def process_pdf(pdf_path: str) -> tuple[str, str]:
         print("🤖 Sending to Gemini Vision...")
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-2.0-flash",
             contents=[
                 types.Content(
                     role="user",
