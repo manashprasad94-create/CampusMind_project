@@ -1,4 +1,4 @@
-# EduAssist 🎓
+# CampusMind 🎓
 
 ## Setup
 1. Clone repo
